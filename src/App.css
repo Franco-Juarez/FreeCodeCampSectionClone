@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #f5f6f7;
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+h1 {
+  font-weight: 700;
+  height: 100%;
+  font-size: 1.7em;
+  line-height: 1.1;
+  margin: .5rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cardtestimonio {
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  width: 90%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: .5rem 0;
+}
+
+.cardtestimonio img {
+  width: 100%;
+}
+
+.cardtestimonio header {
+  padding: 25px 0 0 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cargo-testimonio {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  padding: 25px 0 15px 0;
+}
+
+.textoTestimonio {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+@media  screen and (min-width: 991px) {
+  .cardtestimonio {
+    flex-direction: row;
+    max-width: 1080px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .textoTestimonio {
+    padding: 30px 40px 40px 40px;
+  }
+
+  .cardtestimonio header {
+    padding: 40px 0 0 0;
+  }
+
+  .cargo-testimonio {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  
+}
