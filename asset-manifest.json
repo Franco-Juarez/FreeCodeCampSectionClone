@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FreeCodeCampSectionClone/static/css/main.70ed7c54.css",
+    "main.js": "/FreeCodeCampSectionClone/static/js/main.97670192.js",
+    "static/media/persona-3.png": "/FreeCodeCampSectionClone/static/media/persona-3.add10415a5668325d2f2.png",
+    "static/media/persona-2.png": "/FreeCodeCampSectionClone/static/media/persona-2.2c504d1ebaf1961e4a40.png",
+    "static/media/persona-1.png": "/FreeCodeCampSectionClone/static/media/persona-1.0d373888087fb18fc145.png",
+    "index.html": "/FreeCodeCampSectionClone/index.html",
+    "main.70ed7c54.css.map": "/FreeCodeCampSectionClone/static/css/main.70ed7c54.css.map",
+    "main.97670192.js.map": "/FreeCodeCampSectionClone/static/js/main.97670192.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ed7c54.css",
+    "static/js/main.97670192.js"
+  ]
+}
